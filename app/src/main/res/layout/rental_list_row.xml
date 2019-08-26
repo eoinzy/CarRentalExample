@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    tools:context=".fragment.CarsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/list_image_vehicle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:transitionName="transition"
+            android:scaleType="fitCenter" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/list_text_vendor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                tools:text="Hertz" />
+
+            <TextView
+                android:id="@+id/list_text_make_model"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:text="Toyota Rav 4 or similar" />
+
+            <TextView
+                android:id="@+id/list_text_price"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@android:color/holo_red_light"
+                android:textStyle="bold"
+                tools:text="750.00 CAD" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/list_text_transmission"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:text="Automatic" />
+
+            <TextView
+                android:id="@+id/list_text_fuel_type"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:text="Diesel" />
+
+            <TextView
+                android:id="@+id/list_text_passenger_count"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:text="5 People" />
+
+            <TextView
+                android:id="@+id/list_text_num_doors"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:text="5 Door" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

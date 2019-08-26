@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">List of Rentals</string>
+
+    <!--    Rental List Screen-->
+    <string name="rental_price">%s CAD</string>
+    <string name="rental_num_seats">%s Seats</string>
+    <string name="rental_num_doors">%s Door</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="rental_pickup">Pickup:</string>
+    <string name="rental_dropoff">Dropoff:</string>
+
+    <!--    Detail View-->
+    <string name="details">Details</string>
+    <string name="vendor">Vendor</string>
+    <string name="make_model">Make and Model</string>
+    <string name="transmission">Transmission</string>
+    <string name="fuel_type">Fuel Type</string>
+    <string name="capacity">Capacity</string>
+    <string name="doors">Doors</string>
+    <string name="aircon">Air Conditioning</string>
+    <string name="price">Price</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
