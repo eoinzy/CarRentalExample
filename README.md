@@ -7,8 +7,10 @@ This app uses RetroFit to download the data.
 The URL used to download is configured in the BuildConfig, where any variables are set in the defaultConfig in the app's build.gradle file.
 
 The actual value for the URL is stored in the local gradle.properties file. On *nix machines, this is ~/.gradle/gradle.properties, in the form:
+<p>
 CAR_JSON_DOMAIN=http://www.example.com
 CAR_JSON_PATH=/path/to/cars.json
+</p>
 
 Issues
 ======
