@@ -16,4 +16,5 @@ Issues
 ======
 The JSON data format was unfamiliar and not ideal for marshalling. I had to convert the models to another model (SearchResult) to make the data manageable.
 
-Any usage of this app on other websites will require it's own customised data models.
+This demo was for a specific purpose, with a given endpoint and its specific JSON response format.
+To use this app on another API, you will need to modify the data models and fit them into the app.
